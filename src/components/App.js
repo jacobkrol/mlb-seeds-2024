@@ -142,6 +142,16 @@ function App() {
         <span>
           <p>[2]</p>
           <a
+            href="https://www.sportslogos.net/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            sportslogos.net
+          </a>
+        </span>
+        <span>
+          <p>[3]</p>
+          <a
             href="https://www.mlb.com/news/mlb-playoff-tiebreaker-rules"
             target="_blank"
             rel="noreferrer noopener"
