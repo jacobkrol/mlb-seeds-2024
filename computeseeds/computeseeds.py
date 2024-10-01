@@ -15,7 +15,7 @@ standings = []
 
 #populate dates
 for day in range(28,32):
-    date = 'Mar'+str(day)
+    date = 'Mar '+str(day)
     dates.append(date)
 for day in range(1,31):
     date = 'Apr '+str(day)
@@ -32,7 +32,7 @@ for day in range(1,32):
 for day in range(1,32):
     date = 'Aug '+str(day)
     dates.append(date)
-for day in range(1,30):
+for day in range(1,31):
     date = 'Sep '+str(day)
     dates.append(date)
 

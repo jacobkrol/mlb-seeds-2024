@@ -88,7 +88,7 @@ input[type="button"] {
   position: relative;
   display: grid;
   place-items: center;
-  background-color: hsl(24, 100%, 99%);
+  background-color: #fffbf8; /* hsl(24, 100%, 99%); */
 }
 
 .seed img {
@@ -133,4 +133,24 @@ input[type="button"] {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+#progress-container {
+  width: 350px;
+  border-radius: 4px;
+  height: 8px;
+  /* position: relative;
+  bottom: -40px; */
+  margin-top: 12px;
+  background-color: #fffbf8;
+  box-shadow: 0px 2px 4px #444;
+}
+
+#progress-tracker {
+  /* background-color: hsl(5, 70%, 37%); */
+  /* width: 0; */
+  height: 100%;
+  margin-right: auto;
+  margin-left: 0;
+  border-radius: 4px;
 }

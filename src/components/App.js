@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./App.css";
 import { Flipper, Flipped } from "react-flip-toolkit";
 import alSeedData from "../data/allongseeddata.json";
@@ -42,18 +42,45 @@ function App() {
   const [animate, setAnimate] = useState(null);
   // const [delay, setDelay] = useState(550);
 
+  const getHue = useCallback((_day) => {
+    const startingHue = 125;
+    const endingHue = 5;
+    const hue =
+      startingHue -
+      Math.ceil((_day * Math.abs(startingHue - endingHue)) / alSeedData.length);
+    return hue;
+  }, []);
+
+  const timingFunction = useCallback((_day) => {
+    const progression = _day / alSeedData.length;
+    const fastestMS = 350;
+    const slowestMS = 500;
+    // x^4: https://www.desmos.com/calculator/fsbzksvytf
+    return (
+      (slowestMS - fastestMS) * (16 * Math.pow(progression - 0.5, 4)) +
+      fastestMS
+    );
+  }, []);
+
+  // update seeds and tracker
   useEffect(() => {
     setAlSeeds(alSeedData[day].seeds);
     setNlSeeds(nlSeedData[day].seeds);
-  }, [day]);
 
+    const tracker = document.getElementById("progress-tracker");
+    tracker.style.width = `${Math.ceil((100 * day) / alSeedData.length)}%`;
+    const hue = getHue(day);
+    tracker.style.backgroundColor = `hsl(${hue}, 70%, 37%)`;
+  }, [day, getHue]);
+
+  // animate seeds and date
   useEffect(() => {
     if (day < alSeedData.length - 1 && playing) {
       const animate = setTimeout(() => {
         setAlSeeds(alSeedData[day].seeds);
         setNlSeeds(nlSeedData[day].seeds);
         setDay(day + 1);
-      }, 600 - 450 * (day / alSeedData.length));
+      }, timingFunction(day));
       setAnimate(animate);
     } else {
       setPlaying(false);
@@ -62,7 +89,7 @@ function App() {
     return () => {
       if (animate) clearTimeout(animate);
     };
-  }, [day, playing]);
+  }, [day, playing, timingFunction]);
 
   useEffect(() => {
     if (!playing) clearTimeout(animate);
@@ -71,6 +98,9 @@ function App() {
   return (
     <div id="main-container">
       <h1>2024 Post-Season Seeds</h1>
+      <div id="progress-container">
+        <div id="progress-tracker"></div>
+      </div>
       <h2>{alSeedData[day].date}</h2>
       <div>
         <div className="league-column">
