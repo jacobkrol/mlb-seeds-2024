@@ -89,10 +89,12 @@ function App() {
     return () => {
       if (animate) clearTimeout(animate);
     };
+    // eslint-disable-next-line
   }, [day, playing, timingFunction]);
 
   useEffect(() => {
     if (!playing) clearTimeout(animate);
+    // eslint-disable-next-line
   }, [playing]);
 
   return (
