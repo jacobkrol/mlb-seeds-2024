@@ -18,10 +18,10 @@
       try {
         await fetch("https://postview-eic4hc2dwa-uc.a.run.app", {
           method: "POST",
-          body: {
+          body: JSON.stringify({
             url: window.location.href,
             action: "pageload",
-          },
+          }),
           headers: {
             "Content-Type": "application/json",
           },
