@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/mlb-seeds-2024/static/css/main.d5120304.css",
+    "main.js": "/mlb-seeds-2024/static/js/main.2b79f495.js",
+    "static/js/453.282feb96.chunk.js": "/mlb-seeds-2024/static/js/453.282feb96.chunk.js",
+    "static/media/nationals.png": "/mlb-seeds-2024/static/media/nationals.409b5563a6f3738674f1.png",
+    "static/media/mariners.png": "/mlb-seeds-2024/static/media/mariners.bb6f70602d897b921aac.png",
+    "static/media/astros.png": "/mlb-seeds-2024/static/media/astros.d2fc979dd5cd8d6b6838.png",
+    "static/media/brewers.png": "/mlb-seeds-2024/static/media/brewers.450d38a19eb47d62494b.png",
+    "static/media/mets.png": "/mlb-seeds-2024/static/media/mets.3e4433171ec9dc4f52d1.png",
+    "static/media/yankees.png": "/mlb-seeds-2024/static/media/yankees.b729d275bda497017e9c.png",
+    "static/media/athletics.png": "/mlb-seeds-2024/static/media/athletics.474930ae77127578779e.png",
+    "static/media/cardinals.png": "/mlb-seeds-2024/static/media/cardinals.471d650735b29fd9e128.png",
+    "static/media/guardians.png": "/mlb-seeds-2024/static/media/guardians.b3c7d46c14a505bf6dbf.png",
+    "static/media/marlins.png": "/mlb-seeds-2024/static/media/marlins.28af4ac2b76b87896f2c.png",
+    "static/media/orioles.png": "/mlb-seeds-2024/static/media/orioles.5d581de592021399597c.png",
+    "static/media/giants.png": "/mlb-seeds-2024/static/media/giants.f559d8605d4b8953ed01.png",
+    "static/media/cubs.png": "/mlb-seeds-2024/static/media/cubs.5980238fefdff617f456.png",
+    "static/media/phillies.png": "/mlb-seeds-2024/static/media/phillies.869d45c64543d7181c10.png",
+    "static/media/dodgers.png": "/mlb-seeds-2024/static/media/dodgers.1812665060864da9f1bd.png",
+    "static/media/diamondbacks.png": "/mlb-seeds-2024/static/media/diamondbacks.3eaf6d9920dbe51a4c62.png",
+    "static/media/redsox.png": "/mlb-seeds-2024/static/media/redsox.c93e0e037ff10c140a84.png",
+    "static/media/rays.png": "/mlb-seeds-2024/static/media/rays.40fa6f99b458c1de1d8e.png",
+    "static/media/reds.png": "/mlb-seeds-2024/static/media/reds.dd8d56c2b535a9d329a4.png",
+    "static/media/braves.png": "/mlb-seeds-2024/static/media/braves.b2729b25edb7b48f482d.png",
+    "static/media/whitesox.png": "/mlb-seeds-2024/static/media/whitesox.fb8337090aa6002eefa9.png",
+    "static/media/bluejays.png": "/mlb-seeds-2024/static/media/bluejays.705f1d10246e43dba0eb.png",
+    "index.html": "/mlb-seeds-2024/index.html",
+    "main.d5120304.css.map": "/mlb-seeds-2024/static/css/main.d5120304.css.map",
+    "main.2b79f495.js.map": "/mlb-seeds-2024/static/js/main.2b79f495.js.map",
+    "453.282feb96.chunk.js.map": "/mlb-seeds-2024/static/js/453.282feb96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5120304.css",
+    "static/js/main.2b79f495.js"
+  ]
+}
