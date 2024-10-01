@@ -16,7 +16,13 @@
   <script>
     (async () => {
       try {
-        await fetch("https://postview-eic4hc2dwa-uc.a.run.app");
+        await fetch("https://postview-eic4hc2dwa-uc.a.run.app", {
+          method: "POST",
+          body: {
+            url: window.location.href,
+            action: "pageload",
+          },
+        });
       } catch (err) {
         console.error(err);
       }
