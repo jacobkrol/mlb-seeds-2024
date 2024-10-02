@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mlb-seeds-2024/static/css/main.d5120304.css",
-    "main.js": "/mlb-seeds-2024/static/js/main.2b79f495.js",
+    "main.css": "/mlb-seeds-2024/static/css/main.df392362.css",
+    "main.js": "/mlb-seeds-2024/static/js/main.a8bd22c9.js",
     "static/js/453.282feb96.chunk.js": "/mlb-seeds-2024/static/js/453.282feb96.chunk.js",
     "static/media/nationals.png": "/mlb-seeds-2024/static/media/nationals.409b5563a6f3738674f1.png",
     "static/media/mariners.png": "/mlb-seeds-2024/static/media/mariners.bb6f70602d897b921aac.png",
@@ -26,12 +26,12 @@
     "static/media/whitesox.png": "/mlb-seeds-2024/static/media/whitesox.fb8337090aa6002eefa9.png",
     "static/media/bluejays.png": "/mlb-seeds-2024/static/media/bluejays.705f1d10246e43dba0eb.png",
     "index.html": "/mlb-seeds-2024/index.html",
-    "main.d5120304.css.map": "/mlb-seeds-2024/static/css/main.d5120304.css.map",
-    "main.2b79f495.js.map": "/mlb-seeds-2024/static/js/main.2b79f495.js.map",
+    "main.df392362.css.map": "/mlb-seeds-2024/static/css/main.df392362.css.map",
+    "main.a8bd22c9.js.map": "/mlb-seeds-2024/static/js/main.a8bd22c9.js.map",
     "453.282feb96.chunk.js.map": "/mlb-seeds-2024/static/js/453.282feb96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5120304.css",
-    "static/js/main.2b79f495.js"
+    "static/css/main.df392362.css",
+    "static/js/main.a8bd22c9.js"
   ]
 }
