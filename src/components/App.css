@@ -153,4 +153,5 @@ a {
   margin-right: auto;
   margin-left: 0;
   border-radius: 4px;
+  transition: width 300ms;
 }
